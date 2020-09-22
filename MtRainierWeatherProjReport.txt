@@ -1,0 +1,66 @@
+Abstract: This is a look at some weather data reports from September 23, 2014 to December 31, 2015
+for Mt. Rainier, WA. This dataset is from Kaggle.com, and contains both a weather table, and a
+table on climbing statistics. I intend to use this data project as practice, as well as experiments
+on modeling, and predicting. Some questions I wanted to find specifically about the weather reports
+are:
+
+1. Temperature, Humidity, and Wind vector(speed and direction) statistics, since topics like
+solar radiation are not important to most people. These entries are also listed as averages,
+which I interpret as daily averages and/or area averages.
+a. Means, modes, minimums, and maximums for each of the four above topics.
+
+2. Can we use previous data and perhaps better prediction libraries/software to predict outcomes
+for the weather in 2016-onward?
+a. Can we find a dataset that actually has this information for 2016 besides online weather
+reports?
+b. Can we approach a best fitting polynomial or other function that approximates the weather
+patterns?
+
+3. Are there any correlations between weahter phenomena?
+a. Temperature vs. Relative Humidity
+b. Temperature vs. Wind Direction and Wind Speed
+c. Wind vs. Relative Humidity
+
+Methodology: Python is a widely used and understood language by programmers and lay people alike,
+so this will be my main file for writing queries, searching data, and cleaning data. Modules such
+as Pandas, SweetViz, and NumPy are excellent libraries for data structuring and arranging.
+Datetime is a good library for cleaning up columns with time-sensitive data; as in this case the
+datetime column(when the sighting occurred), date posted column, event durations(both hours/minutes
+and seconds), and even start times. Matplotlib is excellent for also creating visuals such as
+temperature data against each day in 2015.
+
+Research:
+
+1. In the Python script for this project, I have comments marking the statistics about each
+subject:
+
+    Temperature:
+    Average temperature, 28.02 deg F
+    Median temperature, 27.36 deg F
+    Highest temperature, 56.15 deg F
+    Lowest temperature, -0.17 deg F
+    The most common temp, 25.92 deg F
+
+    Wind Direction:
+    Average wind direction, 199.44 deg(or SSE)
+    Median wind direction, 227.47 deg(or ESE)
+    Mode wind direction, 224.60 deg(or SE)
+    Note: This is a data column that cannot use minimums and maximums as a part of its stats.
+    This is due to the nature of measuring angles on a 2D plane, and that there is no min/max,
+    only reference and matching angles.
+
+    Wind Speed:
+    AVG: 13.02 mph
+    MED: 8.71 mph
+    HI: 65.85 mph
+    LO: 0.0 mph
+    MODE: 0.0mph
+
+    Relative Humidity:
+    AVG: 62.5%
+    MED: 64.1%
+    HI: 100.0%
+    LO: 9.7%
+    MODE: 100%
+
+2. 
