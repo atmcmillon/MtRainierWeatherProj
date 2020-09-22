@@ -24,10 +24,9 @@ c. Wind vs. Relative Humidity
 Methodology: Python is a widely used and understood language by programmers and lay people alike,
 so this will be my main file for writing queries, searching data, and cleaning data. Modules such
 as Pandas, SweetViz, and NumPy are excellent libraries for data structuring and arranging.
-Datetime is a good library for cleaning up columns with time-sensitive data; as in this case the
-datetime column(when the sighting occurred), date posted column, event durations(both hours/minutes
-and seconds), and even start times. Matplotlib is excellent for also creating visuals such as
-temperature data against each day in 2015.
+Datetime is a good library for cleaning up columns with time-sensitive data. I used it to even
+establish the timelines for my graphs with Matplotlib. Matplotlib is excellent for also creating
+visuals such as temperature data against each day in 2015.
 
 Research:
 
