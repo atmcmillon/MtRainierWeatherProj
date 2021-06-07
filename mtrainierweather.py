@@ -24,11 +24,11 @@ tempavg = rw['Temperature AVG']
 relhumavg = rw['Relative Humidity AVG']
 #in %
 windspdavg = rw['Wind Speed Daily AVG']
-#in mph, I assume?
+#assuming in mph
 winddiravg = rw['Wind Direction AVG']
-#In  circular degrees
+#in  circular degrees
 solradavg = rw['Solare Radiation AVG']
-#Unsure about the unit measurements here, so we will not address this.
+#unsure about the unit measurements here, so we will not address this.
 
 #Undo the statements below for the report, and comment out the date stuff!
 """rw_report = sv.analyze(rw)
