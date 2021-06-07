@@ -28,7 +28,7 @@ windspdavg = rw['Wind Speed Daily AVG']
 winddiravg = rw['Wind Direction AVG']
 #In  circular degrees
 solradavg = rw['Solare Radiation AVG']
-#No idea how tf this is measured
+#Unsure about the unit measurements here, so we will not address this.
 
 #Undo the statements below for the report, and comment out the date stuff!
 """rw_report = sv.analyze(rw)
